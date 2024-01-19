@@ -105,11 +105,4 @@ if submit:
         st.subheader("Booking ID {0} is cancelled".format(bookingID))
 
 
-    # if sql_query.find("`") != -1:
-    #     sql_query = sql_query[:sql_query.find("```")]
-
-    # sql_response = execute_sql_query(sql_query,"guesthouse.db")
-
-    # st.subheader("Operation Successful")
-    # st.subheader("your booking ID is {0}".format(bookingID))
 
